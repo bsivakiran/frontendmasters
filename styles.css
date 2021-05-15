@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.pageTitleFontStyle {
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.eachRow {
+    display: flex;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+
+.widthStyle25 {
+    width: 25%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.widthStyle50 {
+    width: 50%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.widthStyle75 {
+    width: 75%;
+    border-right: 1px solid black;
+}
+
+.h2Style {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.imgWidth {
+    width: 100%;
+}
+
+.secondRowPadding {
+    font-family: "Futura";
+    font-size: 30px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.secondRowPadding > span {
+    color: #666;
+    padding-left: 30px;
+}
+
+.secondRowPadding > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.polColor {
+    background-color: #ffeaa7;
+}
+
+.techColor {
+    background-color: #81ecec;
+}
+
+.localColor {
+    background-color: #55efc4
+}
+
+.opColor {
+    background-color: #74b9ff
+}
+
+.spColor {
+    background-color: #a29bfe
+}
